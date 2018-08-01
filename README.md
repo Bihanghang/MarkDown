@@ -10,12 +10,34 @@ ssh-keygen -t rsa
 <br>
 带有pub的即公钥，另一个为私钥,如下图：
 <br>
+<br>
 ![](https://github.com/Bihanghang/Test/blob/master/MarkDownPictures/Capture.PNG)
 <br>
-接着打开Gitbub上面的SSH重新创建一个，名字随便起，用编辑器打开id_rsa.pub这个文件复制到新建的位置
+<br>
+接下来找到Github上的这个页面
+<br>
+<br>
+![](https://raw.githubusercontent.com/Bihanghang/Test/master/MarkDownPictures/githubSSH.PNG)
+<br>
+<br>
+重新创建一个SSH key，名字随便起，
+将id_rsa.pub的内容复制过来就解决了问题啦
+<br>
 <br>
 
-如果报![rejected] master -> master (fetch first)这个错，就在git push -u origin master 后面加 --force
+```
+![rejected] master -> master (fetch first)
+````
+如果报这个错，说明远程仓库已经有修改了，
+所以需要先把远程仓库的内容先抓过来，
+```
+pull -all
+```
+比较暴力一点就是无视掉：
+```
+git push -u origin master --force
+```
+
 
 
 
