@@ -21,7 +21,9 @@ ssh-keygen -t rsa
 <br>
 <br>
 重新创建一个SSH key，名字随便起，
-将id_rsa.pub的内容复制过来
+将id_rsa.pub的内容复制过来就解决了问题啦
+<br>
+<br>
 
 ```
 ![rejected] master -> master (fetch first)
