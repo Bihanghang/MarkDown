@@ -13,5 +13,9 @@ ssh-keygen -t rsa
 ![](https://github.com/Bihanghang/Test/blob/master/MarkDownPictures/Capture.PNG)
 <br>
 接着打开Gitbub上面的SSH重新创建一个，名字随便起，用编辑器打开id_rsa.pub这个文件复制到新建的位置
+<br>
+
+如果报![rejected] master -> master (fetch first)这个错，就在git push -u origin master 后面加 --force
+
 
 
