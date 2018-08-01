@@ -10,6 +10,8 @@ ssh-keygen -t rsa
 <br>
 带有pub的即公钥，另一个为私钥,如下图：
 <br>
-![图片](https://github.com/Bihanghang/Test/tree/master/MarkDownPictures/Capture.PNG)
+![](https://github.com/Bihanghang/Test/blob/master/MarkDownPictures/Capture.PNG)
+<br>
 接着打开Gitbub上面的SSH重新创建一个，名字随便起，用编辑器打开id_rsa.pub这个文件复制到新建的位置
+
 
