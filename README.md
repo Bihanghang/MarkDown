@@ -1,43 +1,15 @@
-### 解决Permission denied (publickey).
-先进入Git命令行下
-输入：
+### 8/1/2018
+- [简洁的Hexo搭建](https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/)
+- [Hexo异地](https://blog.csdn.net/zwx2445205419/article/details/66970640)
+- [vscode搭建java工程](https://www.codercto.com/a/12779.html)
+### 8/2/2018
+- 解决安装Hexo抱错：bash: /dev/tty: No such device or address
 ```
-ssh-keygen -t rsa
+deploy:
+  type: git
+  repository: ssh://git@github.com/xiaoliuzi/xiaoliuzi.github.io
+  branch: master
 ```
-之后一直回车
-<br>
-会在C:/Users/{yourname}/.ssh文件夹中生成id_rsa,id_rsa.pub两个文件
-<br>
-带有pub的即公钥，另一个为私钥,如下图：
-<br>
-<br>
-![](https://github.com/Bihanghang/Test/blob/master/MarkDownPictures/Capture.PNG)
-<br>
-<br>
-接下来找到Github上的这个页面
-<br>
-<br>
-![](https://raw.githubusercontent.com/Bihanghang/Test/master/MarkDownPictures/githubSSH.PNG)
-<br>
-<br>
-重新创建一个SSH key，名字随便起，
-将id_rsa.pub的内容复制过来就解决了问题啦
-<br>
-<br>
-
-```
-![rejected] master -> master (fetch first)
-````
-如果报这个错，说明远程仓库已经有修改了，
-所以需要先把远程仓库的内容先抓过来，
-```
-pull --all
-```
-比较暴力一点就是无视掉：
-```
-git push -u origin master --force
-```
-
 
 
 
