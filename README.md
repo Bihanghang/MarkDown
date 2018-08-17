@@ -20,3 +20,4 @@ deploy:
 ### 8/17/2018
 - [githubMarkdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji):shipit:
 - [githubEmoji](https://segmentfault.com/a/1190000009649780):smirk:
+- [hexoEmoji](http://very9s.net/post/hexo-support-emoji/):girl:
