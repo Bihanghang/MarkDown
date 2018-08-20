@@ -23,3 +23,5 @@ deploy:
 - [hexoEmoji](http://very9s.net/post/hexo-support-emoji/):girl:
 - rss
   - https://interestingengineering.com/feed
+### 20/8/2018
+- [制作Hexo主题](https://segmentfault.com/a/1190000008040387)
