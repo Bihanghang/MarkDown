@@ -25,3 +25,5 @@ deploy:
   - https://interestingengineering.com/feed
 ### 20/8/2018
 - [制作Hexo主题](https://segmentfault.com/a/1190000008040387)
+### 21/8/2018
+- [Sass教程](https://www.sass.hk/guide/)
