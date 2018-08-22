@@ -30,3 +30,4 @@ deploy:
 - [Swig官方](http://node-swig.github.io/swig-templates/docs/)
 ### 22/8/2018
 - [Hexo Doc](https://hexo.io/docs/variables)
+- [EJS Doc](https://ejs.bootcss.com/)
