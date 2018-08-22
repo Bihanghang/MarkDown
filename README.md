@@ -28,3 +28,5 @@ deploy:
 ### 21/8/2018
 - [Sass教程](https://www.sass.hk/guide/)
 - [Swig官方](http://node-swig.github.io/swig-templates/docs/)
+### 22/8/2018
+- [Hexo Doc](https://hexo.io/docs/variables)
