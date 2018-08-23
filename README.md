@@ -31,3 +31,5 @@ deploy:
 ### 22/8/2018
 - [Hexo Doc](https://hexo.io/docs/variables)
 - [EJS Doc](https://ejs.bootcss.com/)
+### 23/8/2018
+- [Stylus]http://stylus-lang.com/docs/extend.html
