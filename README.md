@@ -32,4 +32,6 @@ deploy:
 - [Hexo Doc](https://hexo.io/docs/variables)
 - [EJS Doc](https://ejs.bootcss.com/)
 ### 23/8/2018
-- [Stylus]http://stylus-lang.com/docs/extend.html
+- [Stylus](http://stylus-lang.com/docs/extend.html)
+### 18/9/2018
+- [DTD简单介绍](https://blog.csdn.net/z_Ever1/article/details/78310998)
